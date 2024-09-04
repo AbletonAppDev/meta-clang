@@ -12,6 +12,14 @@ This layer provides [clang/llvm](http://clang.llvm.org/) as alternative to syste
 C/C++ compiler for OpenEmbedded/Yocto Project based distributions. This can cohabit
 with GNU compiler and can be used for specific recipes or full system compiler.
 
+# AbletonOS fork
+
+This is a fork of the meta-clang layer that backports newer versions of Clang to the
+current Yocto major release used by AbletonOS.
+
+This branch supports Yocto Kirkstone and is tracking the upstream `scarthgap` branch for
+Clang 18 support. Merge the upstream branch to update this repository to the latest state.
+
 # Getting Started
 
 ```shell
